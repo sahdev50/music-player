@@ -1,0 +1,22 @@
+.dark-light-mode {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.7rem;
+  .library-button {
+    display: flex;
+    align-items: center;
+    h3 {
+      margin-right: 0.8rem;
+      font-weight: 100;
+      cursor: pointer;
+    }
+  }
+  svg {
+    cursor: pointer;
+  }
+}
