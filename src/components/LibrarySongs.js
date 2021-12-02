@@ -40,6 +40,7 @@ const LibrarySongs = ({
   };
   return (
     <div
+      key={song.id}
       className={`card ${song.id === currentSong.id ? "selectedSong" : ""}`}
       onClick={(event) => [libraryHandler(), songHandler()]}>
       <img src={song.cover} alt={song.name} />

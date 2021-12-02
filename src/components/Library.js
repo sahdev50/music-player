@@ -29,6 +29,7 @@ const Library = ({
       <div className="songs-box">
         {songs.map((song) => (
           <LibrarySongs
+            key={song.id}
             song={song}
             libraryHandler={libraryHandler}
             setCurrentSong={setCurrentSong}

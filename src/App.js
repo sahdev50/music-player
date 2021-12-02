@@ -21,8 +21,8 @@ const App = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLibraryOpen, setIsLibraryOpen] = useState(false);
   const [songInfo, setSongInfo] = useState({
-    currentTime: null,
-    duration: null,
+    currentTime: 0,
+    duration: 0,
   });
 
   const timeUpdateHandler = (e) => {
